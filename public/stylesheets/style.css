@@ -1,0 +1,86 @@
+p{
+  font-family: monospace;
+}
+
+.centerfy{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.button{
+  background-color: rgb(156, 156, 156);
+  border-radius: 6px;
+  border: none;
+  color: white
+}
+
+.search{
+  border: 1px solid gray;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  color: #000000;
+  font-family: monospace;
+}
+
+.search::after{
+  content: "<h1>sdfs</h1>";
+}
+
+.search:focus{
+  outline: none;
+}
+
+.w-all{
+  width: 80%;
+}
+
+@media screen and (max-width:576px){
+  .w-all{
+    width: 80%;
+  }
+}
+@media screen and (min-width:576px){
+  .w-all{
+    width: 60%;
+  }
+}
+@media screen and (min-width:1200px){
+  .w-all{
+    width: 50%;
+  }
+}
+@media screen and (min-width:786px){
+  .w-all{
+    width: 35%;
+  }
+}
+@media screen and (min-width:1400px){
+  .w-all{
+    width: 30%;
+  }
+}
+
+.suggestions{
+  z-index: 1;
+  background: rgb(1, 6, 10);
+  width: 100%;
+  border-radius: 15px;
+  overflow-y: scroll;
+  max-height: 200%;
+}
+
+.suggestions::-webkit-scrollbar{
+  visibility:hidden;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.round{
+  border-radius: 13px;
+}
