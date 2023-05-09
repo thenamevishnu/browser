@@ -1,17 +1,19 @@
 {
-  "name": "jil-jil-browser",
-  "version": "0.0.0",
-  "private": true,
+  "name": "space-browser",
+  "version": "1.0.0",
+  "description": "space browser",
+  "main": "app.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "node ./bin/www"
   },
+  "author": "@thenamevishnu",
+  "license": "ISC",
   "dependencies": {
     "cookie-parser": "~1.4.4",
-    "crypto": "^1.0.1",
     "debug": "~2.6.9",
-    "ejs": "~2.6.1",
-    "express": "~4.16.1",
-    "fs": "^0.0.1-security",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
     "googlethis": "^1.7.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1"
